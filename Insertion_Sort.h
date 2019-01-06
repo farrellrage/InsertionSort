@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------
 //Programmer:		Austin M Farrell
-//Insertion Sort (Integers)
+//Insertion Sort
 //	Insertion Sort looks at each element in the given array and determines
 //	whether they are in the correct position by comparing them to the element
 //	before them.
@@ -10,8 +10,8 @@
 //	The given element is then inserted at the position freed up by the shifted
 //	elements.
 //------------------------------------------------------------------------------
-#ifndef InsertionSort_Integers_h
-#define InsertionSort_Integers_h
+#ifndef InsertionSort_h
+#define InsertionSort_h
 
 #include "Standards.h"
 #include "StandardHelperFunctions.h"
