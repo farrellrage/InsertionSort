@@ -9,15 +9,16 @@
 //	after their current position.
 //	The given element is then inserted at the position freed up by the shifted
 //	elements.
+//	Sorts in ascending order
 //------------------------------------------------------------------------------
-#ifndef InsertionSort_h
-#define InsertionSort_h
+#ifndef InsertionSort_Ascending_h
+#define InsertionSort_Ascending_h
 
 #include "Standards.h"
 #include "StandardHelperFunctions.h"
 
 template <typename type>
-void InsertionSort(type data[], int length)
+void InsertionSort_Ascending(type data[], int length)
 {
 	type key;
 	int sortLocation;
@@ -100,6 +101,6 @@ void InsertionSort(type data[], int length)
 			data[sortLocation + 1] = key;
 		} // !for
 	} // !else
-} // !InsertionSort
+} // !InsertionSort_Ascending
 
-#endif // !InsertionSort_Integers_h
+#endif // !InsertionSort_Ascending_h
