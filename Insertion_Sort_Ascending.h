@@ -11,14 +11,14 @@
 //	elements.
 //	Sorts in ascending order
 //------------------------------------------------------------------------------
-#ifndef InsertionSort_Ascending_h
-#define InsertionSort_Ascending_h
+#ifndef Insertion_Sort_Ascending_h
+#define Insertion_Sort_Ascending_h
 
-#include "Standards.h"
-#include "StandardHelperFunctions.h"
+#include "Main.h"
+#include "Standard_Helper_Functions.h"
 
 template <typename type>
-void InsertionSort_Ascending(type data[], int length)
+void InsertionSortAscending(type data[], int length)
 {
 	type key;
 	int sortLocation;
@@ -103,4 +103,4 @@ void InsertionSort_Ascending(type data[], int length)
 	} // !else
 } // !InsertionSort_Ascending
 
-#endif // !InsertionSort_Ascending_h
+#endif // !Insertion_Sort_Ascending_h
